@@ -1,0 +1,48 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Montserrat', sans-serif;
+    --text-white: #fff;
+}
+
+.big-text{
+    font-size: 56px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #484a4b;
+}
+
+.small-text{
+    font-size: 24px;
+    font-family: var(--main-font);
+    color: #765a33;
+    font-weight: 600;
+}
+
+.btn-border-white{
+    border: 2px solid #fff;
+    border-radius: 16px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
